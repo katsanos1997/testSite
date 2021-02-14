@@ -576,10 +576,10 @@ nav#horizontalBuuton{
 }
 
 /*=======================================================fix*/
-/*body {
-	overflow-y: hidden; 
+body {
+	/*overflow-y: hidden; */
 	overflow-x: hidden; 
-}*/
+}
 
 
 /*=================================responsive===================================*/
