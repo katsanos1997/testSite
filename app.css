@@ -504,6 +504,11 @@ nav#mainFooter{
 	font-size: 14px;
 }
 
+
+#main-menu-footer a:hover{
+	color:#BF0A30;
+}
+
 #copyrights h3{
 	font-size: 14px;
 	color: #FFFFFF;
