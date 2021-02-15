@@ -34,6 +34,38 @@
 			<!--menuMob2-->
 			<div id="mySidenav" class="sidenav">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<p></p>
+				<p></p>
+
+
+				<div class="lang" >
+					<link rel="stylesheet" type="text/css" href="lan/css/lib/control/iconselect.css" >
+					<script type="text/javascript" src="lan/lib/control/iconselect.js"></script>
+					<script type="text/javascript" src="lan/lib/iscroll.js"></script>
+					<script>
+					var iconSelect;
+					window.onload = function(){
+					    iconSelect = new IconSelect("my-icon-select", 
+					        {'selectedIconWidth':23,
+					        'selectedIconHeight':23,
+					        'selectedBoxPadding':1,
+					        'iconsWidth':48,
+					        'iconsHeight':48,
+					        'boxIconSpace':1,
+					        'vectoralIconNumber':2,
+					        'horizontalIconNumber':1});
+
+					    var icons = [];
+					    icons.push({'iconFilePath':'lan/images/gr.svg', 'iconValue':'1'});
+					    icons.push({'iconFilePath':'lan/images/1.png', 'iconValue':'2'});
+					    iconSelect.refresh(icons);
+					};
+					</script>
+					<div id="my-icon-select"></div>
+				</div>
+
+
+				<p></p>
 				
 				<nav id="loginSignIn">
 					<element id="MenuEl1">
@@ -328,58 +360,58 @@
 		</section>
 
 		<footer>
-			<div class="containerFixDist">	
-				<nav id="mainFooter">
-					<ul id="main-menu-footer">
-						<li><a href="#">Η ΟΜΟΣΠΟΝΔΙΑ</a></li>
-						<li><a href="#">ΑΡΚΑΔΩΝ ΕΡΓΑ</a></li>
-						<li><a href="#">ΕΠΩΝΥΜΟΙ ΑΡΚΑΔΕΣ</a></li>
-						<li><a href="#">ΝΕΑ-ΕΝΗΜΕΡΩΣΗ</a></li>
-						<li><a href="#">ΕΠΙΣΚΕΨΗ ΣΤΗΝ ΑΡΚΑΔΙΑ</a></li>
-						<li><a href="#">ΑΝΑΖΗΤΗΣΕΙΣ ΣΤΗΝ ΑΡΚΑΔΙΑ</a></li>
-						<li><a href="#">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
-					</ul>
-				</nav>
+			<div class="container">	
+				<div id="myFooter">
+					<a href="/" id="logoFooter">
+						<img src="./images/logo.svg" alt="Logo">
+					</a>
 
-				<a href="/" id="logoFooter">
-					<img src="./images/logo.svg" alt="Logo">
-				</a>
+					<div id="textUnderLogoFooter">
+						<img src="./images/PAF.png">
+					</div>
 
-				<div id="textUnderLogoFooter">
-					<img src="./images/PAF.png">
+					<nav id="horizontalBuuton">
+						<element id="el1">
+							<a href="#"><img src="./images/fb.svg" alt="fbButton"></a>
+						</element>
+
+						<element id="el2">
+							<a href="#"><img src="./images/twitter.svg" alt="twitterButton"></a>
+						</element>
+
+						<element id="el3">
+							<a href="#"><img src="./images/linkedin.svg" alt="linkedinButton"></a>
+						</element>
+
+						<element id="el4">
+							<a href="#"><img src="./images/instagram.svg" alt="instaButton"></a>
+						</element>
+
+						<element id="el5">
+							<a href="#"><img src="./images/youtube.svg" alt="youtubeButton"></a>
+						</element>
+					</nav>
+
+					<nav id="mainFooter">
+						<ul id="main-menu-footer">
+							<li><a href="#">Η ΟΜΟΣΠΟΝΔΙΑ</a></li>
+							<li><a href="#">ΑΡΚΑΔΩΝ ΕΡΓΑ</a></li>
+							<li><a href="#">ΕΠΩΝΥΜΟΙ ΑΡΚΑΔΕΣ</a></li>
+							<li><a href="#">ΝΕΑ-ΕΝΗΜΕΡΩΣΗ</a></li>
+							<li><a href="#">ΕΠΙΣΚΕΨΗ ΣΤΗΝ ΑΡΚΑΔΙΑ</a></li>
+							<li><a href="#">ΑΝΑΖΗΤΗΣΕΙΣ ΣΤΗΝ ΑΡΚΑΔΙΑ</a></li>
+							<li><a href="#">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+						</ul>
+					</nav>
+
+					<div id="copyrights">
+						<h3>©2018 Pan Arcadian Federation of America</h3>
+					</div>
+
+					<div id="goToTop">
+						<a href="#"><img src="./images/totop.svg" alt="go to top button"></a>
+					</div>
 				</div>
-
-				<div id="featured9">
-					<h3>©2018 Pan Arcadian Federation of America</h3>
-				</div>
-
-
-				<nav id="horizontalBuuton">
-					<element id="el1">
-						<a href="#"><img src="./images/fb.svg" alt="fbButton"></a>
-					</element>
-
-					<element id="el2">
-						<a href="#"><img src="./images/twitter.svg" alt="twitterButton"></a>
-					</element>
-
-					<element id="el3">
-						<a href="#"><img src="./images/linkedin.svg" alt="linkedinButton"></a>
-					</element>
-
-					<element id="el4">
-						<a href="#"><img src="./images/instagram.svg" alt="instaButton"></a>
-					</element>
-
-					<element id="el5">
-						<a href="#"><img src="./images/youtube.svg" alt="youtubeButton"></a>
-					</element>
-				</nav>
-
-				<div id="goToTop">
-					<a href="#"><img src="./images/totop.svg" alt="go to top button"></a>
-				</div>
-				
 			</div>
 		</footer>
 

@@ -214,31 +214,6 @@ nav#main{
 	position: absolute;
 	transform: translateY(190px);
 }
-/*
-#textUnderBar {
-	position: absolute;
-	display: flex;
-	margin-top: 10px;
-	padding-left:100px;
-}*/
-/*
-
-#textUnderBar img{
-	display: block;
-}*/
-
-/*========================================select language*/
-/*
-#language {
-	position: relative;
-	display: block;
-	left: 1290px;
-	top:  30px;
-}
-
-#language img{
-	display: block;
-}*/
 
 /*========================================sections-backgrounds*/
 #section2{
@@ -267,7 +242,7 @@ footer {
     /*background: url('./images/bg3.png') bottom center no-repeat;*/
     background: #002868 bottom center no-repeat;
     background-size: cover;
-    height: 440px;
+    /*height: 440px;*/
     /*min-width:1360px;*/
 }
 
@@ -487,99 +462,70 @@ input[type=submit]:hover {
 
 
 /*========================================footer*/
-
-.containerFixDist{
-	width: 1360px;
-	margin: 0 auto;
-	transform: translateY(5%);
+#myFooter{
+	position: relative;
+	padding-top: 20px;
+	text-align: center;
 }
 
-nav#mainFooter{
-	height: 60px;
-	background: #002868;
-	border-radius: 4px;
-	position: relative;
+#textUnderLogoFooter{
+	display: block;
+	margin-top: 25px;
+}
 
-	transform: translateY(500%);
+#horizontalBuuton{
+	display: block;
+	margin-top: 25px;
+}
+
+#el1, #el2, #el3, #el4, #el5 {
+	position: relative;
+	margin-left: 18px;
+}
+
+
+nav#mainFooter{
+	display: block;
 }
 
 #main-menu-footer{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	height: 60px;
+	display: inline-block;
 	list-style: none;
+	margin-top: 35px;
+	align-items: center;
+
+	padding-right: 40px;
 }
 
 #main-menu-footer a{
-	color: white;
-	font-size: 14px;
+	color:#FFFFFF;
 	font-weight: bold;
 	text-decoration: none;
-}
-
-#main-menu-footer a:hover{
-	color: #BF0A30;
-}
-
-#logoFooter {
-	position: relative;
-	display: block;
-	left: 620px;
-	transform: translateY(-20%);
-}
-
-#logoFooter img{
-	display: block;
-}
-
-#textUnderLogoFooter {
-	position: relative;
-	display: block;
-	left: 590px;
-	transform: translateY(-100%);
-}
-
-#featured9 h3{
-	position: relative;
-	color: #FFFFFF;
 	font-size: 14px;
+}
+
+#copyrights h3{
+	font-size: 14px;
+	color: #FFFFFF;
 	opacity: 0.5;
-	/*text-align: center;*/
-	left: 590px;
-	transform: translateY(500%);
 }
 
-nav#horizontalBuuton{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-
-  	position: relative;
-	width: 240px;
-	text-align: left;
-	left:500px;
-	transform: translateY(-130%);
+#copyrights{
+	position: flex;
+	padding-bottom: 10px;
 }
 
-#el1 {order: 1;	margin-right: 25%}
-#el2 {order: 2;	margin-right: 25%}
-#el3 {order: 3;	margin-right: 25%}
-#el4 {order: 4;	margin-right: 25%}
-#el5 {order: 5;	margin-right: 25%}
-
-#goToTop {
-	position: relative;
-	display: block;
-	left: 1250px;
-	transform: translateY(-890%);
+#goToTop{
+	position: absolute;
+	transform: translateY(-110px);
+	right: 25px;
 }
 
 /*=======================================================fix*/
-body {
-	/*overflow-y: hidden; */
+/*body {
+	overflow-y: hidden; 
 	overflow-x: hidden; 
-}
+}*/
 
 
 /*=================================responsive===================================*/
@@ -621,6 +567,16 @@ body {
   left: 0px;
   font-size: 36px;
   /*margin-left: 50px;*/
+}
+
+
+
+.sidenav .lang {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  font-size: 36px;
+  margin-left: 150px;
 }
 
 #mainMob {
@@ -694,6 +650,28 @@ nav#loginSignIn{
 }
 
 @media(min-width: 960px){
+
+	#goToTop{
+		position: absolute;
+		transform: translateY(-470px);
+		right: 25px;
+	}
+
+
+	#main-menu-footer{
+		display: flex;
+		justify-content: space-between;
+		list-style: none;
+		padding-right: 150px;
+		padding-left: 150px;
+		margin-top: 30px;
+		align-items: center;
+	}
+
+	footer {
+    	height: 440px;
+	}
+
 
 	#featured{
 		transform: translateY(0);
@@ -807,6 +785,8 @@ nav#loginSignIn{
 }
 
 @media(min-width: 1280px){
+
+
 
 	#language{
 		margin-left: 385px;
