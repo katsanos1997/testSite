@@ -125,6 +125,10 @@ nav#main{
 	text-decoration: none;
 }
 
+#main-menu a:hover{
+	color: #BF0A30;
+}
+
 #main-menu img:hover{
 	background: #BF0A30;
 }
@@ -175,6 +179,10 @@ nav#main{
 	align-items: center;
 	justify-content: center;
 	text-decoration: none;
+}
+
+#featured img{
+	padding-top: 23px;
 }
 
 /*========================================menu dropdown*/
@@ -749,7 +757,7 @@ nav#loginSignIn{
 
 	#language{
 		display: inline-flex;
-		margin-left: 230px;
+		margin-left: 460px;
 	}
 
 	#textUnderBar{
@@ -796,7 +804,7 @@ nav#loginSignIn{
 
 
 	#language{
-		margin-left: 385px;
+		margin-left: 770px;
 	}
 
 	.container {
