@@ -26,7 +26,15 @@
 body {
 	margin: 0;
 	font-family:"SourceSansPro",serif;
+	overflow-x: hidden; 
 }
+
+/*=======================================================fix*/
+/*body {
+	overflow-y: hidden; 
+	overflow-x: hidden; 
+}*/
+
 /*===================================header=================================*/
 
 header {
@@ -525,12 +533,6 @@ nav#mainFooter{
 	transform: translateY(-110px);
 	right: 25px;
 }
-
-/*=======================================================fix*/
-/*body {
-	overflow-y: hidden; 
-	overflow-x: hidden; 
-}*/
 
 
 /*=================================responsive===================================*/
