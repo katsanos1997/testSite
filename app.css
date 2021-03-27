@@ -266,9 +266,9 @@ footer {
 #colored_icon_text {margin-top: 20px; margin-bottom: 40px;}
 #colored_icon_text h1{color:#BF0A30;font-size:40px;font-weight:bold;margin-bottom: 20px;margin-bottom:20px;}
 
-#teletienarksis h1{color:002868;font-size:20;font-weight:bold;margin-bottom:1px;}
-#teletienarksis h2{color:#BF0A30;font-size:16;font-weight:bold;margin-bottom:0px;}
-#teletienarksis h3{color:002868;font-size:16;font-weight:bold;margin-bottom:1px;}
+#teletienarksis h1{position:relative;color:002868;font-size:20;font-weight:bold;margin-bottom:-4px;}
+#teletienarksis h2{position:relative;color:#BF0A30;font-size:16;font-weight:bold;margin-bottom:-4px;}
+#teletienarksis h3{position:relative;color:002868;font-size:16;font-weight:bold;margin-bottom:-4px;}
 
 #mainSection2{display: block;text-align: center;padding-top: 50px;}
 
@@ -553,7 +553,7 @@ nav#mainFooter{
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;/*left*/
+  right:  0;/*bar right*/
   background-color: white;
   overflow-x: hidden;
   transition: 0.5s;
@@ -608,7 +608,10 @@ nav#mainFooter{
 	position: absolute;
 	font-size:30px;
 	cursor:pointer;
-	/*right: 0;*/
+
+	right: 0;/*burger deksia*/
+	
+
 	margin-border:0% 100%;
 }
 
