@@ -1,9 +1,3 @@
-<?php
-$var = 5;
-?>
-
-
-
 <html>
 	<head>
 		<link href="app.css" rel="stylesheet" />
